@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LikeCommentPost">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Post Content -->
+        <TextView
+            android:id="@+id/postContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"></TextView>
+
+        <!-- Like Button -->
+        <Button
+            android:id="@+id/likeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like" />
+
+        <!-- Comment Button -->
+        <Button
+            android:id="@+id/commentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
